@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+/* jshint moz: true */
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
