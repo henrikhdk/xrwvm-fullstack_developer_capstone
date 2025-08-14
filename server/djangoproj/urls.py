@@ -29,4 +29,4 @@ urlpatterns = [
     path('login/', TemplateView.as_view(template_name="index.html")),
     path('logout/', TemplateView.as_view(template_name="index.html")),
     path('register/', TemplateView.as_view(template_name="index.html")),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static('/', document_root=os.path.join(settings.BASE_DIR, 'frontend/build'))
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
